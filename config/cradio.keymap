@@ -15,9 +15,11 @@
             require-prior-idle-ms = <100>;
             bindings = <&kp>, <&kp>;
         };
+
     };
 
     macros {
+
         kp_dk_LBKT: kp_dk_LBKT {
             label = "kp_dk_LBKT";
             compatible = "zmk,behavior-macro";
@@ -237,7 +239,7 @@
             bindings = <
 &sys_reset   &trans  &trans  &trans      &bt BT_SEL 0    &trans  &trans  &trans  &trans  &sys_reset
 &bootloader  &trans  &trans  &trans      &bt BT_SEL 1    &trans  &trans  &trans  &trans  &bootloader
-&trans       &trans  &trans  &bt BT_CLR  &bt BT_SEL 2    &trans  &trans  &trans  &trans  &trans
+&soft_off       &trans  &trans  &bt BT_CLR  &bt BT_SEL 2    &trans  &trans  &trans  &trans  &trans
                              &trans      &trans          &trans  &trans
             >;
         };
