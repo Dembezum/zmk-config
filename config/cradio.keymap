@@ -2,6 +2,9 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
 
 / {
     behaviors {
@@ -13,12 +16,6 @@
             quick-tap-ms = <150>;
             require-prior-idle-ms = <100>;
             bindings = <&kp>, <&kp>;
-        };
-
-        mousePress: mousePress {
-            compatible = "zmk,behavior-mouse-key-press";
-            label = "MOUSEPRESS";
-            #binding-cells = <1>;
         };
     };
 
@@ -222,10 +219,10 @@
 
         L_1 {
             bindings = <
-&kp N1   &kp N2  &kp N3  &kp N4  &kp N5      &kp N6    &kp N7    &kp N8        &kp N9     &kp N0
-&kp ESC  &kp N4  &kp N5  &kp N6  &kp BSPC    &kp LEFT  &kp DOWN  &kp UP        &kp RIGHT  &kp SEMI
-&kp ESC  &kp N7  &kp N8  &kp N9  &kp N0      &trans    &trans    &kp LEFT_GUI  &trans     &trans
-                         &trans  &kp ESC     &kp DOT   &kp RALT
+&kp N1   &kp N2    &kp N3  &kp N4    &kp N5      &kp N6          &kp N7          &kp N8          &kp N9        &kp N0
+&kp ESC  &mkp MB2  &kp N5  &mkp MB1  &kp BSPC    &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT
+&kp ESC  &kp CAPS  &kp N8  &kp N9    &kp END     &msc SCRL_DOWN  &trans          &kp LEFT_GUI    &trans        &mkp MB3
+                           &trans    &kp ESC     &kp DOT         &kp RALT
             >;
         };
 
@@ -249,7 +246,7 @@
 
         L_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &none   &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
                         &trans  &trans    &trans  &trans
