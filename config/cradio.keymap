@@ -165,6 +165,7 @@ macros {
             , <&macro_release &kp LGUI>
             ;
     };
+    };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
 
