@@ -22,6 +22,150 @@
         };
     };
 
+
+        
+macros {
+    kp_dk_LBKT: kp_dk_LBKT { // this is a macro for writting "[" on danish keyboards.
+        label = "kp_dk_LBKT";
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings
+            = <&macro_press &kp RALT>
+            , <&macro_tap &kp N8>
+            , <&macro_release &kp RALT>
+            ;
+    };
+    kp_dk_RBKT: kp_dk_RBKT { // this is a macro for writting "]" on danish keyboards.
+        label = "kp_dk_RBKT";
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings
+            = <&macro_press &kp RALT>
+            , <&macro_tap &kp N9>
+            , <&macro_release &kp RALT>
+            ;
+    };
+    kp_dk_LBRC: kp_dk_LBRC { // this is a macro for writting "{" on danish keyboards.
+        label = "kp_dk_LBRC";
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings
+            = <&macro_press &kp RALT>
+            , <&macro_tap &kp N7>
+            , <&macro_release &kp RALT>
+            ;
+    };
+    kp_dk_RBRC: kp_dk_RBRC { // this is a macro for writting "}" on danish keyboards.
+        label = "kp_dk_RBRC";
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings
+            = <&macro_press &kp RALT>
+            , <&macro_tap &kp N0>
+            , <&macro_release &kp RALT>
+            ;
+    };
+    copy: copy { // this is a macro for copying
+        label = "copy";
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings
+            = <&macro_press &kp LCTRL>
+            , <&macro_tap &kp C>
+            , <&macro_release &kp LCTRL>
+            ;
+    };
+    dk_paste: dk_paste { // this is a macro for pasting
+        label = "dk_paste";
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings
+            = <&macro_press &kp LCTRL>
+            , <&macro_tap &kp V>
+            , <&macro_release &kp LCTRL>
+            ;
+    };
+    del_word: del_word { // this is a macro for utilising the delete word functionality on windows
+        label = "del_word";
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings
+            = <&macro_press &kp LCTRL>
+            , <&macro_tap &kp BACKSPACE>
+            , <&macro_release &kp LCTRL>
+            ;
+    };
+    kp_dk_BLSH: kp_dk_BLSH { // this is a macro for writting "\" on danish keyboards.
+        label = "kp_dk_BLSH";
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings
+            = <&macro_press &kp RALT>
+            , <&macro_tap &kp NON_US_BACKSLASH>
+            , <&macro_release &kp RALT>
+            ;
+    };
+    kp_dk_PIPE: kp_dk_PIPE { // this is a macro for writting "|" on danish keyboards.
+        label = "kp_dk_PIPE";
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings
+            = <&macro_press &kp RALT>
+            , <&macro_tap &kp EQUAL>
+            , <&macro_release &kp RALT>
+            ;
+    };
+    kp_dk_UNDER: kp_dk_UNDER { // this is a macro for writting "_" on danish keyboards.
+        label = "kp_dk_UNDER";
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings
+            = <&macro_press &kp LSHIFT>
+            , <&macro_tap &kp FSLH>
+            , <&macro_release &kp LSHIFT>
+            ;
+    };
+    mod_left: mod_left { // this is a macro for writting "_" on danish keyboards.
+        label = "mod_left";
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings
+            = <&macro_press &kp LGUI>
+            , <&macro_tap &kp LEFT>
+            , <&macro_release &kp LGUI>
+            ;
+    };
+    mod_up: mod_up { // this is a macro for writting "_" on danish keyboards.
+        label = "mod_up";
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings
+            = <&macro_press &kp LGUI>
+            , <&macro_tap &kp UP>
+            , <&macro_release &kp LGUI>
+            ;
+    };
+    mod_right: mod_right { // this is a macro for writting "_" on danish keyboards.
+        label = "mod_right";
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings
+            = <&macro_press &kp LGUI>
+            , <&macro_tap &kp RIGHT>
+            , <&macro_release &kp LGUI>
+            ;
+    };
+    mod_down: mod_down { // this is a macro for writting "_" on danish keyboards.
+        label = "mod_down";
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings
+            = <&macro_press &kp LGUI>
+            , <&macro_tap &kp DOWN>
+            , <&macro_release &kp LGUI>
+            ;
+    };
+
     conditional_layers { compatible = "zmk,conditional-layers"; };
 
     keymap {
