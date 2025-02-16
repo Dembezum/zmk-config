@@ -1,7 +1,7 @@
 #include "aliases.h"
 #include "macros.dtsi"
 
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 5000  // default: 600
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 2500  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
 
 #include <behaviors.dtsi>
@@ -10,7 +10,7 @@
 #include <dt-bindings/zmk/pointing.h>
 
 &mmv {
-  acceleration-exponent = <20>;
+  acceleration-exponent = <2>;
   time-to-max-speed-ms = <100>;
   delay-ms = <10>;
 };
