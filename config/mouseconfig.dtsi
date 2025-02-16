@@ -1,5 +1,0 @@
-&mmv {
-  acceleration-exponent = <U_MOUSE_MOVE_EXPONENT>;
-  time-to-max-speed-ms = <U_MOUSE_MOVE_TIME>;
-  delay-ms = <U_MOUSE_MOVE_DELAY>;
-};
