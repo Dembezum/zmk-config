@@ -1,5 +1,4 @@
 #include "aliases.h"
-#include "mouseconfig.h"
 #include "macros.dtsi"
 
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 5000  // default: 600
