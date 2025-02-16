@@ -80,8 +80,8 @@
                 <&kp LCTRL>;
         };
 
-        del_word: del_word {
-            label = "del_word";
+        delw: delw {
+            label = "delw";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -90,7 +90,6 @@
                 <&macro_tap>,
                 <&kp BACKSPACE>,
                 <&macro_release>,
-                <&kp LCTRL>;
         };
 
         kp_dk_BLSH: kp_dk_BLSH {
