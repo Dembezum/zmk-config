@@ -69,15 +69,6 @@
 
         L_4 {
             bindings = <
-&trans      &trans      &trans      &trans      &trans      &trans    &trans        &trans    &trans        &trans
-&trans      &trans      &trans      &trans      &trans      &trans    &kp DELETE    &trans    &kp del_word  &trans
-&trans      &trans      &trans      &trans      &trans      &trans    &trans        &trans    &trans        &trans
-                        &trans      &trans      &trans      &trans
-            >;
-        };
-
-        layer_5 {
-            bindings = <
 &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
