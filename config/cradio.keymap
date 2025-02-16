@@ -208,11 +208,6 @@
     keymap {
         compatible = "zmk,keymap";
 
-        &mmv {
-            acceleration-exponent = <U_MOUSE_MOVE_EXPONENT>;
-            time-to-max-speed-ms = <U_MOUSE_MOVE_TIME>;
-            delay-ms = <U_MOUSE_MOVE_DELAY>;
-        };
 
         default_layer {
             bindings = <
@@ -230,6 +225,17 @@
 &kp ESC  &kp CAPS  &kp N8  &kp N9    &kp END     &msc SCRL_DOWN  &kp C_VOL_DN    &kp LEFT_GUI    &kp C_VOL_UP  &mkp MB3
                            &trans    &kp C_MUTE  &kp DOT         &kp RALT
             >;
+            &mmv {
+                acceleration-exponent = <U_MOUSE_MOVE_EXPONENT>;
+                time-to-max-speed-ms = <U_MOUSE_MOVE_TIME>;
+                delay-ms = <U_MOUSE_MOVE_DELAY>;
+            };
+            &msc {
+                acceleration-exponent = <U_MOUSE_SCROLL_EXPONENT>;
+                time-to-max-speed-ms = <U_MOUSE_SCROLL_TIME>;
+                delay-ms = <U_MOUSE_SCROLL_DELAY>;
+            };
+
         };
 
         L_2 {
