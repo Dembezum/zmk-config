@@ -1,4 +1,5 @@
 // Aliases
+#define del_word DELW
 #define DK_plus MINUS
 #define DK_minus FSLH
 #define DK_astrk PIPE
