@@ -1,3 +1,5 @@
+#include "dt-bindings/zmk/macro.dtsi"
+
 / {
     macros {
         // Danish macros
