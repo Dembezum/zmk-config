@@ -69,10 +69,10 @@
 
         L_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans    &trans  &trans
+&trans    &trans    &trans  &trans       &trans    &trans        &trans  &trans  &trans  &trans
+&kp LEFT  &kp DOWN  &kp UP  &kp RIGHT    &trans    &kp del_word  &kp DEL &trans  &trans  &trans
+&trans    &trans    &trans  &trans       &trans    &trans        &trans  &trans  &trans  &trans
+                                 &trans  &trans    &trans  &trans
             >;
         };
     };
