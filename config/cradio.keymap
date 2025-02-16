@@ -1,6 +1,7 @@
 #include "aliases.h"
 #include "mouseconfig.h"
 #include "macros.dtsi"
+
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
@@ -53,10 +54,10 @@
 
         L_3 {
             bindings = <
-&sys_reset   &trans  &trans  &trans      &bt BT_SEL 0    &trans  &trans  &trans  &trans  &sys_reset
-&bootloader  &trans  &trans  &trans      &bt BT_SEL 1    &trans  &trans  &trans  &trans  &bootloader
-&soft_off       &trans  &trans  &bt BT_CLR  &bt BT_SEL 2    &trans  &trans  &trans  &trans  &trans
-                             &trans      &trans          &trans  &trans
+&sys_reset   &trans  &UP    &trans      &bt BT_SEL 0    &trans  &trans  &trans  &trans  &sys_reset
+&bootloader  &LEFT   &DOWN  &RIGHT      &bt BT_SEL 1    &trans  &trans  &trans  &trans  &bootloader
+&soft_off    &tran   &trans &bt BT_CLR  &bt BT_SEL 2    &trans  &trans  &trans  &trans  &trans
+                             &trans     &trans          &trans  &trans
             >;
         };
 
