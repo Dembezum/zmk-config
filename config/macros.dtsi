@@ -80,6 +80,18 @@
                 <&kp LCTRL>;
         };
 
+        delw: delw {
+            label = "delw";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp BACKSPACE>,
+                <&macro_release>,
+        };
+
         kp_dk_BLSH: kp_dk_BLSH {
             label = "kp_dk_BLSH";
             compatible = "zmk,behavior-macro";

@@ -70,7 +70,7 @@
         L_4 {
             bindings = <
 &trans    &trans    &trans  &trans       &trans    &trans        &trans  &trans  &trans  &trans
-&kp LEFT  &kp DOWN  &kp UP  &kp RIGHT    &trans    &trans        &kp DEL &trans  &trans  &trans
+&kp LEFT  &kp DOWN  &kp UP  &kp RIGHT    &trans    &trans        &kp DEL &trans  &delw  &trans
 &trans    &trans    &trans  &trans       &trans    &trans        &trans  &trans  &trans  &trans
                                  &trans  &trans    &trans  &trans
             >;
