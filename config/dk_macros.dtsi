@@ -1,6 +1,6 @@
 // Danish macros
 
-macros {
+/ macros {
 
     kp_dk_LBKT: kp_dk_LBKT {
         label = "kp_dk_LBKT";
