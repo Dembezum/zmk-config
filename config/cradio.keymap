@@ -6,7 +6,6 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
 #include <dt-bindings/zmk/pointing.h>
 
-// Custom imports
 #include "aliases.h"
 #include "macros.dtsi"
 #include "combos.dtsi"
