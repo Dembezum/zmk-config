@@ -1,4 +1,3 @@
-#include <behaviors.dtsi>
 / {
     macros {
         // Danish macros
