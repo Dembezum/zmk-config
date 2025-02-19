@@ -1,0 +1,16 @@
+// tapdance.dtsi
+/ {
+    td_mt: tap_dance_mod_tap {
+        compatible = "zmk,behavior-tap-dance";
+        #binding-cells = <0>;
+        tapping-term-ms = <200>;
+        bindings = <&mt LSHIFT CAPSLOCK>, <&kp LCTRL>;
+    };
+
+    td_num1: tap_dance_mod_tap {
+        compatible = "zmk,behavior-tap-dance";
+        #binding-cells = <0>;
+        tapping-term-ms = <200>;
+        bindings = <&kp N1>, <&kp N2>;
+    };
+};

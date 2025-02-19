@@ -9,6 +9,7 @@
 #include "aliases.h"
 #include "macros.dtsi"
 #include "combos.dtsi"
+#include "tapdance.dtsi"
 
 &mmv {
   acceleration-exponent = <2>;
