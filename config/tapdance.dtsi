@@ -9,7 +9,31 @@
             bindings = <&mt LSHIFT CAPSLOCK>, <&kp LCTRL>;
         };
 
-        td_num1: tap_dance_numbers {
+        td0: tap_dance_numbers {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp N1>, <&kp N2>, <&ht N3 N4>;
+        };
+        td1: tap_dance_numbers2 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp N1>, <&kp N2>, <&ht N3 N4>;
+        };
+        td2: tap_dance_numbers3 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp N1>, <&kp N2>, <&ht N3 N4>;
+        };
+        td3: tap_dance_numbers4 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp N1>, <&kp N2>, <&ht N3 N4>;
+        };
+        td4: tap_dance_numbers5 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
