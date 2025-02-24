@@ -18,14 +18,6 @@
 };
 
 / {
-    td0: tap_dance_numbers {
-        bindings = <&kp N1>, <&kp N2>, <&kp N3>, <&kp N4>;
-        tap-hold {
-            tap = <&kp N3>;
-            hold = <&kp N4>;
-        };
-    };
-
 
     behaviors {
         ht: hold_tap {
