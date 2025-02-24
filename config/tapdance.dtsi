@@ -13,27 +13,34 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp N1>, <&kp N2>, <&ht N3 N4>;
+            bindings = <&kp N1>, <&kp N2>, <&ht N3>;
         };
-        td1: tap_dance_numbers2 {
+        td1: tap_dance_numbers {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp N5>, <&kp N6>, <&ht N7 N8>;
+            bindings = <&kp N4>, <&kp N5>, <&ht N6>;
         };
-        td2: tap_dance_numbers3 {
+        td2: tap_dance_numbers2 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp N7>, <&kp N8>, <&ht N9>;
+        };
+
+        td3: tap_dance_numbers3 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp N1>, <&kp N2>, <&ht N3 N4>;
         };
-        td3: tap_dance_numbers4 {
+        td4: tap_dance_numbers4 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp N1>, <&kp N2>, <&ht N3 N4>;
         };
-        td4: tap_dance_numbers5 {
+        td6: tap_dance_numbers5 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
