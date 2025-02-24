@@ -17,8 +17,8 @@
             key-positions = <21 22>;
         };
 
-        &mo L_5 {
-            bindings = <&key_repeat>;
+        L_5 {
+            bindings = <&mo L_5>;
             key-positions = <27 28>;
         };
     };
