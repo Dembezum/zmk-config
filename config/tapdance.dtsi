@@ -10,6 +10,9 @@
         };
 
         td0: tap_dance_numbers {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
             bindings = <&kp N1>, <&kp N2>, <&ht N3>;
         };
 
