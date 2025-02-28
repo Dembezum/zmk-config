@@ -8,12 +8,9 @@
             tapping-term-ms = <200>;
             bindings = <&mt LSHIFT CAPSLOCK>, <&kp LCTRL>;
         };
+
         td0: tap_dance_numbers {
-            bindings = <&kp N1>, <&kp N2>, <&kp N3>, <&kp N4>;
-            tap-hold {
-                tap = <&kp N3>;
-                hold = <&kp N4>;
-            };
+            bindings = <&kp N1>, <&kp N2>, <&ht N3>;
         };
 
     };
