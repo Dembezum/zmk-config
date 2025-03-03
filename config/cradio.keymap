@@ -152,7 +152,7 @@
                 <&kp RALT>;
         };
 
-        dkUNDER: dkUNDER {
+        QUEST: QUEST {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -160,6 +160,30 @@
                 <&kp LSHIFT>,
                 <&macro_tap>,
                 <&kp FSLH>,
+                <&macro_release>,
+                <&kp LSHIFT>;
+        };
+
+        PERCT: PERCT {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LSHIFT>,
+                <&macro_tap>,
+                <&kp 5>,
+                <&macro_release>,
+                <&kp LSHIFT>;
+        };
+
+        EQL: EQL {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LSHIFT>,
+                <&macro_tap>,
+                <&kp 0>,
                 <&macro_release>,
                 <&kp LSHIFT>;
         };
@@ -254,7 +278,7 @@
                 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼──────────────┼─────────────┤           */
                     &kp EXCL      &kp AT        &kp SEMICOLON &kp SINGLE_QUOTE &kp LEFT_BRACKET &kp ASTRK  &kp_dk_PIPE  &kp EQUAL     &kp BSLH       &kp GRAVE
                 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼──────────────┼─────────────┤           */
-                    &kp ESC       &trans        &trans        &trans        &kp RGUI        &kp AMPS       &kp UNDER    &kp MINUS      &kp PIPE       &tilde
+                    &kp ESC       &trans        &trans        &trans        &kp RGUI        &kp AMPS       &QUEST       &kp MINUS      &kp PIPE       &tilde
                 /*╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴──────────────┼─────────────╯           */
                                                               &kp RSHFT     &kp RALT        &trans        &kp LCTRL
                 /*                                          ╰─────────────┴─────────────╯ ╰─────────────┴─────────────╯                                                      */
@@ -295,16 +319,16 @@
                 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼──────────────┼─────────────┤           */
                     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3 &bt BT_SEL 4     &bt BT_CLR    &trans        &trans        &trans         &trans
                 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼──────────────┼─────────────┤           */
-                    &trans        &trans        &trans        &trans        &trans           &trans       &trans        &trans        &trans         &trans
+                    &trans        &trans        &trans        &trans        &trans          &trans        &trans        &trans        &trans         &trans
                 /*╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴──────────────┼─────────────╯           */
-                                                              &trans        &trans           &trans       &trans
+                                                              &trans        &trans          &trans        &trans
                 /*                                          ╰─────────────┴─────────────╯ ╰─────────────┴─────────────╯                                                      */
             >;
         };
         L_6 {
             bindings = <
                 /*╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬──────────────┬─────────────╮           */
-                    &kp ESC       &trans        &kp F3        &kp Y         &kp T            &trans          &trans        &trans        &trans         &trans
+                    &kp ESC       &trans        &kp F3        &kp Y         &kp T            &trans          &trans      &trans        &trans         &trans
                 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼──────────────┼─────────────┤           */
                     &trans        &trans        &trans        &trans        &trans           &kp Q         &kp A         &kp W         &kp D          &ht LSHIFT G
                 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼──────────────┼─────────────┤           */
@@ -317,11 +341,11 @@
         L_7 {
             bindings = <
                 /*╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬──────────────┬─────────────╮           */
-                    &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6         &kp N7        &kp N8         &kp N9        &kp N0
+                    &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6        &kp N7        &kp N8         &kp N9        &kp N0
                 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼──────────────┼─────────────┤           */
-                    &trans        &trans        &trans        &trans       &trans           &trans        &trans        &trans        &trans         &trans
+                    &LESS        &PERCT        &dkLPAR        &dkLBRC       &dkLBKT         &EQL          &QUEST        &kp BACKSLASH  &trans        &trans
                 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼──────────────┼─────────────┤           */
-                    &trans        &trans        &trans        &trans       &trans           &trans        &trans        &trans        &trans         &trans
+                    &GREAT        &trans        &dkRPAR        &dkRBRC       &dkRBKT        &trans        &trans        &trans        &trans         &trans
                 /*╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴──────────────┼─────────────╯           */
                                                               &trans       &trans           &trans        &trans
                 /*                                          ╰─────────────┴─────────────╯ ╰─────────────┴─────────────╯                                                      */

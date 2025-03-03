@@ -130,6 +130,17 @@
                 <&macro_release>,
                 <&kp LSHIFT>;
         };
+        PERCT: PERCT {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LSHIFT>,
+                <&macro_tap>,
+                <&kp 5>,
+                <&macro_release>,
+                <&kp LSHIFT>;
+        };
 
         mod_left: mod_left {
             compatible = "zmk,behavior-macro";
