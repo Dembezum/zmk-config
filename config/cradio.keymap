@@ -68,6 +68,38 @@
                 <&kp RALT>;
         };
 
+        dkMLBRC: dkMLBRC {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LSHIFT>,
+                <&macro_press>,
+                <&kp RALT>,
+                <&macro_tap>,
+                <&kp N8>,
+                <&macro_release>,
+                <&kp RALT>,
+                <&macro_release>,
+                <&kp LSHIFT>;
+        };
+
+        dkMLBRC: dkMLBRC {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LSHIFT>,
+                <&macro_press>,
+                <&kp RALT>,
+                <&macro_tap>,
+                <&kp N9>,
+                <&macro_release>,
+                <&kp RALT>,
+                <&macro_release>,
+                <&kp LSHIFT>;
+        };
+
         dkRBRC: dkRBRC {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
