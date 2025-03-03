@@ -7,7 +7,7 @@
 #include <dt-bindings/zmk/pointing.h>
 
 #include "aliases.h"
-//#include "macros.dtsi"
+// #include "macros.dtsi"
 #include "combos.dtsi"
 #include "tapdance.dtsi"
 
