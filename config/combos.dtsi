@@ -21,5 +21,9 @@
             bindings = <&mo 5>;
             key-positions = <27 28>;
         };
+        L_7 {
+            bindings = <&mo 7>;
+            key-positions = <17 16>;
+        };
     };
 };
