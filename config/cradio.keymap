@@ -19,64 +19,86 @@
 
 / {
 
-    behaviors {
-        ht: hold_tap {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <220>;
-            quick-tap-ms = <150>;
-            require-prior-idle-ms = <100>;
-            bindings = <&kp>, <&kp>;
+behaviors {
+ht: hold_tap {
+    compatible = "zmk,behavior-hold-tap";
+    #binding-cells = <2>;
+    flavor = "tap-preferred";
+    tapping-term-ms = <220>;
+    quick-tap-ms = <150>;
+    require-prior-idle-ms = <100>;
+    bindings = <&kp>, <&kp>;
+};
+macros {
+    // Danish macros
+    dkLBKT: dkLBKT {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings =
+            <&macro_press>,
+            <&kp RALT>,
+            <&macro_tap>,
+            <&kp N8>,
+            <&macro_release>,
+            <&kp RALT>;
+    };
+
+    dkRBKT: dkRBKT {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings =
+            <&macro_press>,
+            <&kp RALT>,
+            <&macro_tap>,
+            <&kp N9>,
+            <&macro_release>,
+            <&kp RALT>;
+    };
+
+    dkLBRC: dkLBRC {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings =
+            <&macro_press>,
+            <&kp RALT>,
+            <&macro_tap>,
+            <&kp N7>,
+            <&macro_release>,
+            <&kp RALT>;
+    };
+
+    dkRBRC: dkRBRC {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings =
+            <&macro_press>,
+            <&kp RALT>,
+            <&macro_tap>,
+            <&kp N0>,
+            <&macro_release>,
+            <&kp RALT>;
+    };
+    dkLPAR: dkLPAR {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings =
+            <&macro_press>,
+            <&kp LSHIFT>,
+            <&macro_tap>,
+            <&kp N8>,
+            <&macro_release>,
+            <&kp LSHIFT>,
         };
-        macros {
-            // Danish macros
-            dkLBKT: dkLBKT {
-                compatible = "zmk,behavior-macro";
-                #binding-cells = <0>;
-                bindings =
-                    <&macro_press>,
-                    <&kp RALT>,
-                    <&macro_tap>,
-                    <&kp N8>,
-                    <&macro_release>,
-                    <&kp RALT>;
-            };
-
-            dkRBKT: dkRBKT {
-                compatible = "zmk,behavior-macro";
-                #binding-cells = <0>;
-                bindings =
-                    <&macro_press>,
-                    <&kp RALT>,
-                    <&macro_tap>,
-                    <&kp N9>,
-                    <&macro_release>,
-                    <&kp RALT>;
-            };
-
-            dkLBRC: dkLBRC {
-                compatible = "zmk,behavior-macro";
-                #binding-cells = <0>;
-                bindings =
-                    <&macro_press>,
-                    <&kp RALT>,
-                    <&macro_tap>,
-                    <&kp N7>,
-                    <&macro_release>,
-                    <&kp RALT>;
-            };
-
-            dkRBRC: dkRBRC {
-                compatible = "zmk,behavior-macro";
-                #binding-cells = <0>;
-                bindings =
-                    <&macro_press>,
-                    <&kp RALT>,
-                    <&macro_tap>,
-                    <&kp N0>,
-                    <&macro_release>,
-                    <&kp RALT>;
+        dkRPAR: dkRPAR {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LSHIFT>,
+                <&macro_tap>,
+                <&kp N9>,
+                <&macro_release>,
+                <&kp LSHIFT>,
             };
 
             copy: copy {

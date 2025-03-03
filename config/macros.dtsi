@@ -48,6 +48,28 @@
                 <&macro_release>,
                 <&kp RALT>;
         };
+        dkLPAR: dkLPAR {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LSHIFT>,
+                <&macro_tap>,
+                <&kp N8>,
+                <&macro_release>,
+                <&kp LSHIFT>,
+        };
+        dkRPAR: dkRPAR {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LSHIFT>,
+                <&macro_tap>,
+                <&kp N9>,
+                <&macro_release>,
+                <&kp LSHIFT>,
+        };
 
         copy: copy {
             compatible = "zmk,behavior-macro";
