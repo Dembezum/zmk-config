@@ -57,7 +57,7 @@
                 <&macro_tap>,
                 <&kp N8>,
                 <&macro_release>,
-                <&kp LSHIFT>,
+                <&kp LSHIFT>;
         };
         dkRPAR: dkRPAR {
             compatible = "zmk,behavior-macro";
@@ -68,7 +68,7 @@
                 <&macro_tap>,
                 <&kp N9>,
                 <&macro_release>,
-                <&kp LSHIFT>,
+                <&kp LSHIFT>;
         };
 
         copy: copy {
