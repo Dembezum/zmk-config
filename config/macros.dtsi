@@ -48,6 +48,7 @@
                 <&macro_release>,
                 <&kp RALT>;
         };
+
         dkLPAR: dkLPAR {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -59,6 +60,7 @@
                 <&macro_release>,
                 <&kp LSHIFT>;
         };
+
         dkRPAR: dkRPAR {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -119,7 +121,7 @@
                 <&kp RALT>;
         };
 
-        dkUNDER: dkUNDER {
+        QUEST: QUEST {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -130,6 +132,7 @@
                 <&macro_release>,
                 <&kp LSHIFT>;
         };
+
         PERCT: PERCT {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -138,6 +141,18 @@
                 <&kp LSHIFT>,
                 <&macro_tap>,
                 <&kp 5>,
+                <&macro_release>,
+                <&kp LSHIFT>;
+        };
+
+        dkEQL: dkEQL {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LSHIFT>,
+                <&macro_tap>,
+                <&kp 0>,
                 <&macro_release>,
                 <&kp LSHIFT>;
         };
