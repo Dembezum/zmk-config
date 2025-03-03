@@ -8,7 +8,7 @@
 
 #include "aliases.h"
 // #include "macros.dtsi"
-#include "combos.dtsi"
+//#include "combos.dtsi"
 #include "tapdance.dtsi"
 
 &mmv {
@@ -28,6 +28,33 @@
             quick-tap-ms = <150>;
             require-prior-idle-ms = <100>;
             bindings = <&kp>, <&kp>;
+        };
+    };
+    combos {
+        compatible = "zmk,combos";
+
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <1 2>;
+        };
+
+        bspc {
+            bindings = <&kp BSPC>;
+            key-positions = <7 8>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <21 22>;
+        };
+
+        L_5 {
+            bindings = <&mo 5>;
+            key-positions = <27 28>;
+        };
+        L_7 {
+            bindings = <&mo 7>;
+            key-positions = <17 16>;
         };
     };
     macros {
