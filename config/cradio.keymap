@@ -29,169 +29,169 @@
             require-prior-idle-ms = <100>;
             bindings = <&kp>, <&kp>;
         };
-    macros {
-        // Danish macros
-        kp_dk_LBKT: kp_dk_LBKT {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp RALT>,
-                <&macro_tap>,
-                <&kp N8>,
-                <&macro_release>,
-                <&kp RALT>;
-        };
+        macros {
+            // Danish macros
+            dkLBKT: dkLBKT {
+                compatible = "zmk,behavior-macro";
+                #binding-cells = <0>;
+                bindings =
+                    <&macro_press>,
+                    <&kp RALT>,
+                    <&macro_tap>,
+                    <&kp N8>,
+                    <&macro_release>,
+                    <&kp RALT>;
+            };
 
-        kp_dk_RBKT: kp_dk_RBKT {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp RALT>,
-                <&macro_tap>,
-                <&kp N9>,
-                <&macro_release>,
-                <&kp RALT>;
-        };
+            dkRBKT: dkRBKT {
+                compatible = "zmk,behavior-macro";
+                #binding-cells = <0>;
+                bindings =
+                    <&macro_press>,
+                    <&kp RALT>,
+                    <&macro_tap>,
+                    <&kp N9>,
+                    <&macro_release>,
+                    <&kp RALT>;
+            };
 
-        kp_dk_LBRC: kp_dk_LBRC {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp RALT>,
-                <&macro_tap>,
-                <&kp N7>,
-                <&macro_release>,
-                <&kp RALT>;
-        };
+            dkLBRC: dkLBRC {
+                compatible = "zmk,behavior-macro";
+                #binding-cells = <0>;
+                bindings =
+                    <&macro_press>,
+                    <&kp RALT>,
+                    <&macro_tap>,
+                    <&kp N7>,
+                    <&macro_release>,
+                    <&kp RALT>;
+            };
 
-        kp_dk_RBRC: kp_dk_RBRC {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp RALT>,
-                <&macro_tap>,
-                <&kp N0>,
-                <&macro_release>,
-                <&kp RALT>;
-        };
+            dkRBRC: dkRBRC {
+                compatible = "zmk,behavior-macro";
+                #binding-cells = <0>;
+                bindings =
+                    <&macro_press>,
+                    <&kp RALT>,
+                    <&macro_tap>,
+                    <&kp N0>,
+                    <&macro_release>,
+                    <&kp RALT>;
+            };
 
-        copy: copy {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LCTRL>,
-                <&macro_tap>,
-                <&kp C>,
-                <&macro_release>,
-                <&kp LCTRL>;
-        };
+            copy: copy {
+                compatible = "zmk,behavior-macro";
+                #binding-cells = <0>;
+                bindings =
+                    <&macro_press>,
+                    <&kp LCTRL>,
+                    <&macro_tap>,
+                    <&kp C>,
+                    <&macro_release>,
+                    <&kp LCTRL>;
+            };
 
-        dk_paste: dk_paste {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LCTRL>,
-                <&macro_tap>,
-                <&kp V>,
-                <&macro_release>,
-                <&kp LCTRL>;
-        };
+            dk_paste: dk_paste {
+                compatible = "zmk,behavior-macro";
+                #binding-cells = <0>;
+                bindings =
+                    <&macro_press>,
+                    <&kp LCTRL>,
+                    <&macro_tap>,
+                    <&kp V>,
+                    <&macro_release>,
+                    <&kp LCTRL>;
+            };
 
-        kp_dk_BLSH: kp_dk_BLSH {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp RALT>,
-                <&macro_tap>,
-                <&kp NON_US_BACKSLASH>,
-                <&macro_release>,
-                <&kp RALT>;
-        };
+            dkBLSH: dkBLSH {
+                compatible = "zmk,behavior-macro";
+                #binding-cells = <0>;
+                bindings =
+                    <&macro_press>,
+                    <&kp RALT>,
+                    <&macro_tap>,
+                    <&kp NON_US_BACKSLASH>,
+                    <&macro_release>,
+                    <&kp RALT>;
+            };
 
-        kp_dk_PIPE: kp_dk_PIPE {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp RALT>,
-                <&macro_tap>,
-                <&kp EQUAL>,
-                <&macro_release>,
-                <&kp RALT>;
-        };
+            dkPIPE: dkPIPE {
+                compatible = "zmk,behavior-macro";
+                #binding-cells = <0>;
+                bindings =
+                    <&macro_press>,
+                    <&kp RALT>,
+                    <&macro_tap>,
+                    <&kp EQUAL>,
+                    <&macro_release>,
+                    <&kp RALT>;
+            };
 
-        kp_dk_UNDER: kp_dk_UNDER {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LSHIFT>,
-                <&macro_tap>,
-                <&kp FSLH>,
-                <&macro_release>,
-                <&kp LSHIFT>;
-        };
+            dkUNDER: dkUNDER {
+                compatible = "zmk,behavior-macro";
+                #binding-cells = <0>;
+                bindings =
+                    <&macro_press>,
+                    <&kp LSHIFT>,
+                    <&macro_tap>,
+                    <&kp FSLH>,
+                    <&macro_release>,
+                    <&kp LSHIFT>;
+            };
 
-        mod_left: mod_left {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LGUI>,
-                <&macro_tap>,
-                <&kp LEFT>,
-                <&macro_release>,
-                <&kp LGUI>;
-        };
+            mod_left: mod_left {
+                compatible = "zmk,behavior-macro";
+                #binding-cells = <0>;
+                bindings =
+                    <&macro_press>,
+                    <&kp LGUI>,
+                    <&macro_tap>,
+                    <&kp LEFT>,
+                    <&macro_release>,
+                    <&kp LGUI>;
+            };
 
-        mod_up: mod_up {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LGUI>,
-                <&macro_tap>,
-                <&kp UP>,
-                <&macro_release>,
-                <&kp LGUI>;
-        };
+            mod_up: mod_up {
+                compatible = "zmk,behavior-macro";
+                #binding-cells = <0>;
+                bindings =
+                    <&macro_press>,
+                    <&kp LGUI>,
+                    <&macro_tap>,
+                    <&kp UP>,
+                    <&macro_release>,
+                    <&kp LGUI>;
+            };
 
-        mod_right: mod_right {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LGUI>,
-                <&macro_tap>,
-                <&kp RIGHT>,
-                <&macro_release>,
-                <&kp LGUI>;
-        };
+            mod_right: mod_right {
+                compatible = "zmk,behavior-macro";
+                #binding-cells = <0>;
+                bindings =
+                    <&macro_press>,
+                    <&kp LGUI>,
+                    <&macro_tap>,
+                    <&kp RIGHT>,
+                    <&macro_release>,
+                    <&kp LGUI>;
+            };
 
-        mod_down: mod_down {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LGUI>,
-                <&macro_tap>,
-                <&kp DOWN>,
-                <&macro_release>,
-                <&kp LGUI>;
+            mod_down: mod_down {
+                compatible = "zmk,behavior-macro";
+                #binding-cells = <0>;
+                bindings =
+                    <&macro_press>,
+                    <&kp LGUI>,
+                    <&macro_tap>,
+                    <&kp DOWN>,
+                    <&macro_release>,
+                    <&kp LGUI>;
+            };
+            tilde: tilde {
+                compatible = "zmk,behavior-macro";
+                #binding-cells = <0>;
+                bindings = <&kp LEFT_SHIFT &kp GRAVE>;
+            };
         };
-        tilde: tilde {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_SHIFT &kp GRAVE>;
-        };
-    };
     };
 
     keymap {

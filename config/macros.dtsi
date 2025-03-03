@@ -1,7 +1,7 @@
 / {
     macros {
         // Danish macros
-        kp_dk_LBKT: kp_dk_LBKT {
+        dkLBKT: dkLBKT {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -13,7 +13,7 @@
                 <&kp RALT>;
         };
 
-        kp_dk_RBKT: kp_dk_RBKT {
+        dkRBKT: dkRBKT {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -25,7 +25,7 @@
                 <&kp RALT>;
         };
 
-        kp_dk_LBRC: kp_dk_LBRC {
+        dkLBRC: dkLBRC {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -37,7 +37,7 @@
                 <&kp RALT>;
         };
 
-        kp_dk_RBRC: kp_dk_RBRC {
+        dkRBRC: dkRBRC {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -73,7 +73,7 @@
                 <&kp LCTRL>;
         };
 
-        kp_dk_BLSH: kp_dk_BLSH {
+        dkBLSH: dkBLSH {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -85,7 +85,7 @@
                 <&kp RALT>;
         };
 
-        kp_dk_PIPE: kp_dk_PIPE {
+        dkPIPE: dkPIPE {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -97,7 +97,7 @@
                 <&kp RALT>;
         };
 
-        kp_dk_UNDER: kp_dk_UNDER {
+        dkUNDER: dkUNDER {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
