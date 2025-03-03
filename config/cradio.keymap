@@ -85,7 +85,7 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LSHIFT>
+                <&kp LSHIFT>,
                 <&macro_tap>,
                 <&kp N8>,
                 <&macro_release>,
