@@ -299,16 +299,10 @@
                 <&kp LGUI>;
         };
         m_tmxspv: m_tmxspv {
-            label = "M_TMXSPV";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LC(A)>,
-                <&macro_release>,
-                <&macro_press>,
-                <&kp RA(I)>,
-                <&macro_release>;
+            bindings = <&kp LC(A) &kp RA(I)>;
+            label = "Split tmux vertically";
         };
         tilde: tilde {
             compatible = "zmk,behavior-macro";
@@ -327,7 +321,7 @@
                 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤           */
                     &ht LSHIFT A  &kp S         &kp D         &kp F         &kp G           &kp H         &kp J         &lt 4 K        &kp L        &ht RSHIFT BACKSLASH
                 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤           */
-                    &kp Z         &ht LCTRL X   &ht LALT C    &kp V         &kp B           &kp N         &kp M         &ht RALT COMMA &ht LCTRL PERIOD  &ht RMETA SLASH
+                    &kp Z         &ht LCTRL X   &ht LALT C    &kp V         &kp B           &kp N        &kp M         &ht RALT COMMA &ht LCTRL PERIOD  &ht RMETA SLASH
                 /*╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯           */
                                                              &ht LMETA TAB &lt 1 BACKSPACE &lt 2 SPACE   &lt 3 ENTER
                 /*                                          ╰─────────────┴─────────────╯ ╰─────────────┴─────────────╯                                                     */
