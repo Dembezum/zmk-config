@@ -307,6 +307,7 @@
                 <&kp LC(A)>,
                 <&macro_release>,
                 <&kp RA(I)>;
+                <&macro_release>,
         };
         tilde: tilde {
             compatible = "zmk,behavior-macro";
