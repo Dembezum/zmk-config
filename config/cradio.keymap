@@ -298,17 +298,18 @@
                 <&macro_release>,
                 <&kp LGUI>;
         };
+        // TMUX macros
         m_tmxspv: m_tmxspv {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LC(A) &kp RA(I)>;
-            label = "Split tmux vertically";
+            label = "MAC Split tmux vertically";
         };
-        m_tmxsph: m_tmxsph {
+        tmxsph: tmxsph {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LC(A) &kp SLASH>;
-            label = "Split tmux horizontally";
+            label = "GENERAL Split tmux horizontally";
         };
         tilde: tilde {
             compatible = "zmk,behavior-macro";
