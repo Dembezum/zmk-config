@@ -314,13 +314,13 @@
         tmxcnt: tmxcnt {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(A) &kp c>;
+            bindings = <&kp LC(A) &kp C>;
             label = "tmux create new tab";
         };
         tmxcytb: tmxcytb {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(A) &kp n>;
+            bindings = <&kp LC(A) &kp N>;
             label = "tmux cycle tabs";
         };
         tilde: tilde {
