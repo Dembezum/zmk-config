@@ -304,6 +304,12 @@
             bindings = <&kp LC(A) &kp RA(I)>;
             label = "Split tmux vertically";
         };
+        m_tmxsph: m_tmxsph {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(A) &kp SLASH>;
+            label = "Split tmux horizontally";
+        };
         tilde: tilde {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
