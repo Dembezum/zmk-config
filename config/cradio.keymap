@@ -298,21 +298,15 @@
                 <&macro_release>,
                 <&kp LGUI>;
         };
-        mac_tmspv: mac_tmspv {
+        m_tmxspv: m_tmxspv {
+            label = "M_TMXSPV";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LCTRL>,
-                <&macro_tap>,
-                <&kp a>,
+                <&kp LC(A)>,
                 <&macro_release>,
-                <&kp LCTRL>,
-                <&macro_press>,
-                <&kp RALT>,
-                <&macro_release>,
-                <&macro_tap>,
-                <&kp i>;
+                <&kp RA(I)>;
         };
         tilde: tilde {
             compatible = "zmk,behavior-macro";
@@ -398,7 +392,7 @@
                 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼──────────────┼─────────────┤           */
                     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &bt BT_CLR    &trans        &trans        &trans         &trans
                 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼──────────────┼─────────────┤           */
-                    &mac_tmspv    &trans        &trans        &trans        &trans          &trans        &trans        &trans        &trans         &trans
+                    &m_tmxspv    &trans        &trans        &trans        &trans          &trans        &trans        &trans        &trans         &trans
                 /*╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴──────────────┼─────────────╯           */
                                                               &trans        &trans          &trans        &trans
                 /*                                          ╰─────────────┴─────────────╯ ╰─────────────┴─────────────╯                                                      */
