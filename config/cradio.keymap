@@ -309,7 +309,19 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LC(A) &kp SLASH>;
-            label = "GENERAL Split tmux horizontally";
+            label = "Split tmux horizontally";
+        };
+        tmxcnt: tmxcnt {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(A) &kp c>;
+            label = "tmux create new tab";
+        };
+        tmxcytb: tmxcytb {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(A) &kp n>;
+            label = "tmux cycle tabs";
         };
         tilde: tilde {
             compatible = "zmk,behavior-macro";
