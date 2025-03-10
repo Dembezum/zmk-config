@@ -306,6 +306,7 @@
                 <&macro_press>,
                 <&kp LC(A)>,
                 <&macro_release>,
+                <&macro_press>,
                 <&kp RA(I)>,
                 <&macro_release>;
         };
