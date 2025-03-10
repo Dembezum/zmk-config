@@ -305,11 +305,14 @@
                 <&macro_press>,
                 <&kp LCTRL>,
                 <&macro_tap>,
-                <&kp RALT>,
-                <&macro_tap>,
-                <&kp i>,
+                <&kp a>,
                 <&macro_release>,
-                <&kp LCTRL>;
+                <&kp LCTRL>,
+                <&macro_press>,
+                <&kp RALT>,
+                <&macro_release>,
+                <&macro_tap>,
+                <&kp i>;
         };
         tilde: tilde {
             compatible = "zmk,behavior-macro";
