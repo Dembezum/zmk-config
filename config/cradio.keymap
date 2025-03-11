@@ -389,11 +389,11 @@
         L_7 {
             bindings = <
                 /*╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬──────────────┬─────────────╮           */
-                    &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6        &kp N7        &kp N8         &kp N9        &kp N0
+                    &kp DK_HASH   &kp DK_DQUO   &kp DK_GRV    &kp DK_CIRC   &kp DK_UNDS     &kp N6        &kp N7        &kp N8         &kp N9        &kp N0
                 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼──────────────┼─────────────┤           */
-                    &trans        &kp DK_PERCNT &kp DK_LPAR   &kp DK_LBRC   &kp DK_LBKT     &kp DK_EQL    &kp DK_QUES   &kp BACKSLASH &trans         &trans
+                    &kp DK_LABK   &kp DK_PERC   &kp DK_LPAR   &kp DK_LBRC   &kp DK_LBKT     &kp DK_EQL    &kp DK_QUES   &kp BACKSLASH &trans         &trans
                 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼──────────────┼─────────────┤           */
-                    &to 0         &kp DK_AMPR   &kp DK_RPAR   &kp DK_RBRC   &kp DK_RBKT     &trans        &trans        &trans        &trans         &trans
+                    &kp DK_RABK   &kp DK_AMPR   &kp DK_RPAR   &kp DK_RBRC   &kp DK_RBKT     &trans        &trans        &trans        &trans         &trans
                 /*╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴──────────────┼─────────────╯           */
                                                               &trans       &trans           &trans        &trans
                 /*                                          ╰─────────────┴─────────────╯ ╰─────────────┴─────────────╯                                                      */
