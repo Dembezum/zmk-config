@@ -33,7 +33,7 @@
 #define DK_SCLN LS(DK_COMM) // ;
 #define DK_COLN LS(DK_DOT)  // :
 #define DK_UNDS LS(DK_MINS) // _
-#define DK_MINS FLSH        // -
+#define DK_MINS SLASH       // -
 #define DK_AT RA(DK_2)      // @
 #define DK_PND RA(DK_3)     // £
 #define DK_DLR RA(DK_4)     // $
