@@ -28,7 +28,7 @@
 #define DK_GRV LS(DK_BSLS)  // ` (dead)
 #define DK_CIRC LS(DK_DIAE) // ^ (dead)
 #define DK_ASTR LS(DK_SQT)  // *
-#define DK_SQT LS(BSLH)     // '
+#define DK_SQT BSLH         // '
 #define DK_RABK LS(DK_LABK) // >
 #define DK_SCLN LS(DK_COMM) // ;
 #define DK_COLN LS(DK_DOT)  // :
