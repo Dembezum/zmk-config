@@ -26,8 +26,9 @@
 #define DK_RBRC RA(N9)      // ]
 #define DK_RCBR RA(N0)      // }
 #define DK_PLUS MINUS       // +
-#define DK_LCRK NUBS        // +
-#define DK_RCRK LS(NUBS)    // +
+#define DK_LCRK NUBS        //
+#define DK_RCRK LS(NUBS)    //
+#define dk_TILD RA(RBKT)    // ~
 
 #define DK_ARNG LBRC // Å
 #define DK_OSTR SEMI // Ø
