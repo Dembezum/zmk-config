@@ -32,7 +32,7 @@
 #define DK_SCLN LS(DK_COMM) // ;
 #define DK_COLN LS(DK_DOT)  // :
 #define DK_UNDS LS(DK_MINS) // _
-#define DK_MINS KC_SLSH     // -
+#define DK_MINS SLSH        // -
 #define DK_AT ALGR(DK_2)    // @
 #define DK_PND ALGR(DK_3)   // £
 #define DK_DLR ALGR(DK_4)   // $
@@ -41,8 +41,8 @@
 #define DK_LBRC ALGR(DK_8)  // [
 #define DK_RBRC ALGR(DK_9)  // ]
 #define DK_RCBR ALGR(DK_0)  // }
-#define DK_LABK KC_NUBS     // <
-#define DK_PLUS KC_MINS     // +
+#define DK_LABK NUBS        // <
+#define DK_PLUS MINS        // +
 
 #define DK_ARNG LBRC // Å
 #define DK_OSTR SEMI // Ø
