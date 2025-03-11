@@ -7,8 +7,6 @@
 #include <dt-bindings/zmk/pointing.h>
 
 #include "aliases.h"
-// #include "macros.dtsi"
-//#include "combos.dtsi"
 #include "tapdance.dtsi"
 
 &mmv {
@@ -186,13 +184,6 @@
             #binding-cells = <0>;
             bindings = <&kp RA(EQUAL)>;
             label = "DK Pipe";
-        };
-
-        QUEST: QUEST {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(DK_PLUS)>;
-            label = "DK Question mark";
         };
 
         PERCNT: PERCNT {
