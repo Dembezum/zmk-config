@@ -1,5 +1,7 @@
 // aliases.h
+#pragma once
 #include <dt-bindings/zmk/keys.h>
+
 #define DK_plus MINUS
 #define DK_minus FSLH
 #define DK_astrk PIPE
