@@ -1,16 +1,5 @@
 // aliases.h
-// #define DK_plus MINUS
-// #define DK_minus FSLH
-// #define DK_astrk PIPE
-// #define DK_qmark UNDER
-// #define DK_caret RBRC
-// #define DK_equal RPAR
-// #define DK_lpar ASTRK
-// #define DK_rpar LPAR
 // #define DK_flsh AMPS
-// #define DK_sqt BACKSLASH
-// #define DK_dqt AT
-// #define DK_dllr GRAVE
 
 #define DK_SECT LS(DK_PIPE) // §
 #define DK_PIPE RA(EQUAL)   // |
@@ -24,10 +13,9 @@
 #define DK_LPRN LS(N8)      // (
 #define DK_RPRN LS(N9)      // )
 #define DK_EQL LS(N0)       // =
-#define DK_QUES LS(DK_PLUS) // ?
+#define DK_QUES UNDER       // ?
 #define DK_ASTR PIPE        // *
 #define DK_SQT BSLH         // '
-#define DK_RABK LS(DK_LABK) // >
 #define DK_COMM LS(COMMA)   // ,
 #define DK_SCLN LS(DK_COMM) // ;
 #define DK_DOT LS(DOT)      // .
@@ -42,8 +30,9 @@
 #define DK_LBRC RA(DK_8)    // [
 #define DK_RBRC RA(DK_9)    // ]
 #define DK_RCBR RA(DK_0)    // }
-#define DK_LABK NUBS        // <
-#define DK_PLUS KP_MINUS    // +
+#define DK_LABK RBRC        // <
+#define DK_RABK LS(DK_LABK) // >
+#define DK_PLUS MINUS       // +
 
 #define DK_ARNG LBRC // Å
 #define DK_OSTR SEMI // Ø
