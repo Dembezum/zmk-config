@@ -326,9 +326,9 @@
                 /*╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬──────────────┬─────────────╮           */
                     &kp DK_HASH   &kp DK_DQUO   &kp DK_ASTR   &trans        &kp DK_UNDS     &trans        &trans        &trans        &trans         &trans
                 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼──────────────┼─────────────┤           */
-                    &trans        &kp DK_PERC   &kp DK_LPRN   &kp DK_LCBR   &kp DK_LBRC     &trans    &trans        &trans        &trans         &trans
+                    &kp DK_LCRK   &kp DK_PERC   &kp DK_LPRN   &kp DK_LCBR   &kp DK_LBRC     &trans    &trans        &trans        &trans         &trans
                 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼──────────────┼─────────────┤           */
-                    &kp DK_RABK   &kp DK_AMPR   &kp DK_RPRN   &kp DK_RCBR   &kp DK_RBRC     &trans        &trans        &trans        &trans         &trans
+                    &kp DK_RCRK   &kp DK_AMPR   &kp DK_RPRN   &kp DK_RCBR   &kp DK_RBRC     &trans        &trans        &trans        &trans         &trans
                 /*╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴──────────────┼─────────────╯           */
                                                               &trans       &trans           &trans        &trans
                 /*                                          ╰─────────────┴─────────────╯ ╰─────────────┴─────────────╯                                                      */
