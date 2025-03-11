@@ -46,4 +46,4 @@
 
 #define DK_ARNG KC_LBRC // Å
 #define DK_OSTR KC_SEMI // Ø
-#define DK_AE KC_QUOT   // Æ
+#define DK_AE KC_SQT    // Æ
