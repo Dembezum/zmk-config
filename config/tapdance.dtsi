@@ -8,6 +8,12 @@
             tapping-term-ms = <200>;
             bindings = <&mt LSHIFT CAPSLOCK>, <&kp LCTRL>;
         };
+        td_QT: td_QT {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp DK_SQT>, <&kp DK_DQUO>;
+        };
 
     };
 };
