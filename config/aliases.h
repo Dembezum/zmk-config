@@ -33,14 +33,14 @@
 #define DK_COLN LS(DK_DOT)  // :
 #define DK_UNDS LS(DK_MINS) // _
 #define DK_MINS SLSH        // -
-#define DK_AT ALGR(DK_2)    // @
-#define DK_PND ALGR(DK_3)   // £
-#define DK_DLR ALGR(DK_4)   // $
-#define DK_EURO ALGR(DK_5)  // €
-#define DK_LCBR ALGR(DK_7)  // {
-#define DK_LBRC ALGR(DK_8)  // [
-#define DK_RBRC ALGR(DK_9)  // ]
-#define DK_RCBR ALGR(DK_0)  // }
+#define DK_AT RA(DK_2)      // @
+#define DK_PND RA(DK_3)     // £
+#define DK_DLR RA(DK_4)     // $
+#define DK_EURO RA(DK_5)    // €
+#define DK_LCBR RA(DK_7)    // {
+#define DK_LBRC RA(DK_8)    // [
+#define DK_RBRC RA(DK_9)    // ]
+#define DK_RCBR RA(DK_0)    // }
 #define DK_LABK NUBS        // <
 #define DK_PLUS MINS        // +
 
