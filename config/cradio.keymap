@@ -1,13 +1,14 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include "aliases.h"
+
 
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 3500  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
 #include <dt-bindings/zmk/pointing.h>
 
 #include "tapdance.dtsi"
+#include "aliases.h" // Include the Danish keys
 
 &mmv {
   acceleration-exponent = <2>;
