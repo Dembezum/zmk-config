@@ -12,7 +12,7 @@
 #define DK_LPRN LS(N8)      // (
 #define DK_RPRN LS(N9)      // )
 #define DK_EQL LS(N0)       // =
-#define DK_QUES UNDER       // ?
+#define DK_QUES LS(DK_MINS) // ?
 #define DK_ASTR PIPE        // *
 #define DK_SQT BSLH         // '
 #define DK_UNDS LS(DK_MINS) // _
