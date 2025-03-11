@@ -43,7 +43,7 @@
 #define DK_RBRC RA(DK_9)    // ]
 #define DK_RCBR RA(DK_0)    // }
 #define DK_LABK NUBS        // <
-#define DK_PLUS MINS        // +
+#define DK_PLUS MINUS       // +
 
 #define DK_ARNG LBRC // Å
 #define DK_OSTR SEMI // Ø
