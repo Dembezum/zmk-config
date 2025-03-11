@@ -1,4 +1,5 @@
-// Aliases
+// aliases.h
+
 #define DK_plus MINUS
 #define DK_minus FSLH
 #define DK_astrk PIPE
@@ -22,15 +23,15 @@
 #define DK_SLSH LS(N7)      // /
 #define DK_LPRN LS(N8)      // (
 #define DK_RPRN LS(N9)      // )
-#define DK_EQL S(N0)        // =
-#define DK_QUES S(DK_PLUS)  // ?
-#define DK_GRV S(DK_BSLS)   // ` (dead)
-#define DK_CIRC S(DK_DIAE)  // ^ (dead)
-#define DK_ASTR S(DK_QUOT)  // *
-#define DK_RABK S(DK_LABK)  // >
-#define DK_SCLN S(DK_COMM)  // ;
-#define DK_COLN S(DK_DOT)   // :
-#define DK_UNDS S(DK_MINS)  // _
+#define DK_EQL LS(N0)       // =
+#define DK_QUES LS(DK_PLUS) // ?
+#define DK_GRV LS(DK_BSLS)  // ` (dead)
+#define DK_CIRC LS(DK_DIAE) // ^ (dead)
+#define DK_ASTR LS(DK_QUOT) // *
+#define DK_RABK LS(DK_LABK) // >
+#define DK_SCLN LS(DK_COMM) // ;
+#define DK_COLN LS(DK_DOT)  // :
+#define DK_UNDS LS(DK_MINS) // _
 #define DK_MINS KC_SLSH     // -
 #define DK_AT ALGR(DK_2)    // @
 #define DK_PND ALGR(DK_3)   // £
