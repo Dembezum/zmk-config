@@ -44,6 +44,6 @@
 #define DK_LABK KC_NUBS     // <
 #define DK_PLUS KC_MINS     // +
 
-#define DK_ARNG KC_LBRC // Å
-#define DK_OSTR KC_SEMI // Ø
-#define DK_AE KC_SQT    // Æ
+#define DK_ARNG LBRC // Å
+#define DK_OSTR SEMI // Ø
+#define DK_AE SQT    // Æ
