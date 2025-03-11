@@ -28,7 +28,9 @@
 #define DK_ASTR LS(DK_SQT)  // *
 #define DK_SQT BSLH         // '
 #define DK_RABK LS(DK_LABK) // >
+#define DK_COMM LS(COMMA)   // ,
 #define DK_SCLN LS(DK_COMM) // ;
+#define DK_DOT LS(DOT)      // .
 #define DK_COLN LS(DK_DOT)  // :
 #define DK_UNDS LS(DK_MINS) // _
 #define DK_MINS SLASH       // -
