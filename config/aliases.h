@@ -1,18 +1,18 @@
 // aliases.h
 // #define DK_flsh AMPS
 
-#define DK_PIPE RA(EQUAL)   // |
-#define DK_EXLM LS(N1)      // !
-#define DK_DQUO LS(N2)      // "
-#define DK_HASH LS(N3)      // #
-#define DK_CURR LS(N4)      // ¤
-#define DK_PERC LS(N5)      // %
-#define DK_AMPR LS(N6)      // &
-#define DK_SLSH LS(N7)      // /
-#define DK_LPRN LS(N8)      // (
-#define DK_RPRN LS(N9)      // )
-#define DK_EQL LS(N0)       // =
-#define DK_QUES LS(DK_MINS) // ?
+#define DK_PIPE RA(EQUAL) // |
+#define DK_EXLM LS(N1)    // !
+#define DK_DQUO LS(N2)    // "
+#define DK_HASH LS(N3)    // #
+#define DK_CURR LS(N4)    // ¤
+#define DK_PERC LS(N5)    // %
+#define DK_AMPR LS(N6)    // &
+#define DK_SLSH LS(N7)    // /
+#define DK_LPRN LS(N8)    // (
+#define DK_RPRN LS(N9)    // )
+#define DK_EQL LS(N0)     // =
+// #define DK_QUES LS(DK_MINS) // ?
 #define DK_ASTR PIPE        // *
 #define DK_SQT BACKSLASH    // '
 #define DK_UNDS LS(DK_MINS) // _
