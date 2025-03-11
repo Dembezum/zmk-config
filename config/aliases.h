@@ -14,9 +14,9 @@
 #define DK_EQL LS(N0)       // =
 #define DK_QUES LS(DK_MINS) // ?
 #define DK_ASTR PIPE        // *
-#define DK_SQT BSLH         // '
+#define DK_SQT BACKSLASH    // '
 #define DK_UNDS LS(DK_MINS) // _
-#define DK_MINS FSLH        // -
+#define DK_MINS SLASH       // -
 #define DK_AT RA(N2)        // @
 #define DK_PND RA(N3)       // £
 #define DK_DLR RA(N4)       // $
