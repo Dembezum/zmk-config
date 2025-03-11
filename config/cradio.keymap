@@ -92,11 +92,6 @@
             bindings = <&kp LC(A) &kp N>;
             label = "tmux cycle tabs";
         };
-        tilde: tilde {
-            compatible = "zmk,behavior-macro";
-            #binding-cells= <0>;
-            bindings = <&kp LEFT_SHIFT &kp GRAVE>;
-        };
     };
 
     keymap {
@@ -133,9 +128,9 @@
                 /*╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬──────────────┬─────────────╮           */
                     &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &kp F6        &kp F7        &kp F8        &kp F11        &kp F12
                 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼──────────────┼─────────────┤           */
-                    &kp DK_EXLM   &trans        &trans        &trans        &trans          &kp DK_PERC   &kp DK_PIPE   &kp DK_EQL    &kp BSLH       &kp DK_TILD 
+                    &kp DK_EXLM   &trans        &trans        &trans        &trans          &kp DK_PERC   &kp DK_PIPE   &kp DK_EQL    &kp BSLH       &kp RA(RBKT) 
                 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼──────────────┼─────────────┤           */
-                    &kp ESC       &trans        &trans        &trans        &kp RGUI        &kp DK_SLSH   &kp DK_QUES   &kp DK_PLUS   &kp DK_TILD    &trans 
+                    &kp ESC       &trans        &trans        &trans        &kp RGUI        &kp DK_SLSH   &kp DK_QUES   &kp DK_PLUS   &trans    &trans 
                 /*╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴──────────────┼─────────────╯           */
                                                               &kp RSHFT     &kp RALT        &trans        &kp LCTRL
                 /*                                          ╰─────────────┴─────────────╯ ╰─────────────┴─────────────╯                                                      */
