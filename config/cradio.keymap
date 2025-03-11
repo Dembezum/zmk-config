@@ -7,8 +7,8 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
 #include <dt-bindings/zmk/pointing.h>
 
-#include "tapdance.dtsi"
 #include "aliases.h" // Include the Danish keys
+#include "tapdance.dtsi"
 
 &mmv {
   acceleration-exponent = <2>;
