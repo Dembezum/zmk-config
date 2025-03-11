@@ -1,5 +1,5 @@
 // aliases.h
-#define DK_plus MINUS
+/* #define DK_plus MINUS
 #define DK_minus FSLH
 #define DK_astrk PIPE
 #define DK_qmark UNDER
@@ -10,7 +10,7 @@
 #define DK_flsh AMPS
 #define DK_sqt BACKSLASH
 #define DK_dqt AT
-#define DK_dllr GRAVE
+#define DK_dllr GRAVE */
 
 #define DK_SECT LS(DK_PIPE) // §
 #define DK_PIPE RA(EQUAL)   // |
