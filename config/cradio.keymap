@@ -181,52 +181,25 @@
             label = "Paste macro";
         };
 
-        dkBLSH: dkBLSH {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp RALT>,
-                <&macro_tap>,
-                <&kp NON_US_BACKSLASH>,
-                <&macro_release>,
-                <&kp RALT>;
-        };
-
         dkPIPE: dkPIPE {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp RALT>,
-                <&macro_tap>,
-                <&kp EQUAL>,
-                <&macro_release>,
-                <&kp RALT>;
+            bindings = <&kp RA(EQUAL)>;
+            label = "DK Pipe";
         };
 
         QUEST: QUEST {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LSHIFT>,
-                <&macro_tap>,
-                <&kp FSLH>,
-                <&macro_release>,
-                <&kp LSHIFT>;
+            bindings = <&kp LS(DK_PLUS)>;
+            label = "Question mark";
         };
 
-        PERCT: PERCT {
+        PERCNT: PERCNT {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LSHIFT>,
-                <&macro_tap>,
-                <&kp 5>,
-                <&macro_release>,
-                <&kp LSHIFT>;
+            bindings = <&kp LS(N5)>;
+            label = "PERCNT";
         };
 
         dkEQL: dkEQL {
@@ -295,6 +268,12 @@
             bindings = <&kp LC(A) &kp RA(I)>;
             label = "MAC Split tmux vertically";
         };
+        tmxspv: tmxspv {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(A) &kp DK_PIPE>;
+            label = "MAC Split tmux vertically";
+        };
         tmxsph: tmxsph {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -354,7 +333,7 @@
                 /*╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬──────────────┬─────────────╮           */
                     &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &kp F6         &kp F7       &kp F8        &kp F11        &kp F12
                 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼──────────────┼─────────────┤           */
-                    &kp EXCL      &kp AT        &kp SEMICOLON &kp SINGLE_QUOTE &kp LEFT_BRACKET &kp ASTRK  &dkPIPE  &kp EQUAL     &kp BSLH       &kp GRAVE
+                    &kp EXCL      &kp AT        &kp SEMICOLON &kp SINGLE_QUOTE &kp LEFT_BRACKET &kp PERCNT &dkPIPE  &kp EQUAL     &kp BSLH       &kp GRAVE
                 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼──────────────┼─────────────┤           */
                     &kp ESC       &trans        &trans        &trans        &kp RGUI        &kp AMPS       &QUEST       &kp MINUS      &kp PIPE       &tilde
                 /*╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴──────────────┼─────────────╯           */
@@ -421,7 +400,7 @@
                 /*╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬──────────────┬─────────────╮           */
                     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6        &kp N7        &kp N8         &kp N9        &kp N0
                 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼──────────────┼─────────────┤           */
-                    &trans        &PERCT        &dkLPAR       &dkLBRC       &dkLBKT         &dkEQL        &QUEST        &kp BACKSLASH  &trans        &trans
+                    &trans        &PERCNT       &dkLPAR       &dkLBRC       &dkLBKT         &dkEQL        &QUEST        &kp BACKSLASH  &trans        &trans
                 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼──────────────┼─────────────┤           */
                     &to 0         &trans        &dkRPAR       &dkRBRC       &dkRBKT         &trans        &trans        &trans        &trans         &trans
                 /*╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴──────────────┼─────────────╯           */

@@ -11,3 +11,38 @@
 #define DK_sqt BACKSLASH
 #define DK_dqt AT
 #define DK_dllr GRAVE
+
+#define DK_SECT LS(DK_PIPE) // §
+#define DK_EXLM LS(N1)      // !
+#define DK_DQUO LS(N2)      // "
+#define DK_HASH LS(N3)      // #
+#define DK_CURR LS(N4)      // ¤
+#define DK_PERC LS(N5)      // %
+#define DK_AMPR LS(N6)      // &
+#define DK_SLSH LS(N7)      // /
+#define DK_LPRN LS(N8)      // (
+#define DK_RPRN LS(N9)      // )
+#define DK_EQL S(N0)        // =
+#define DK_QUES S(DK_PLUS)  // ?
+#define DK_GRV S(DK_BSLS)   // ` (dead)
+#define DK_CIRC S(DK_DIAE)  // ^ (dead)
+#define DK_ASTR S(DK_QUOT)  // *
+#define DK_RABK S(DK_LABK)  // >
+#define DK_SCLN S(DK_COMM)  // ;
+#define DK_COLN S(DK_DOT)   // :
+#define DK_UNDS S(DK_MINS)  // _
+#define DK_MINS KC_SLSH     // -
+#define DK_AT ALGR(DK_2)    // @
+#define DK_PND ALGR(DK_3)   // £
+#define DK_DLR ALGR(DK_4)   // $
+#define DK_EURO ALGR(DK_5)  // €
+#define DK_LCBR ALGR(DK_7)  // {
+#define DK_LBRC ALGR(DK_8)  // [
+#define DK_RBRC ALGR(DK_9)  // ]
+#define DK_RCBR ALGR(DK_0)  // }
+#define DK_LABK KC_NUBS     // <
+#define DK_PLUS KC_MINS     // +
+
+#define DK_ARNG KC_LBRC // Å
+#define DK_OSTR KC_SCLN // Ø
+#define DK_AE KC_QUOT   // Æ
