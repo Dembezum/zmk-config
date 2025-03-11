@@ -14,6 +14,7 @@
 #define DK_dllr GRAVE
 
 #define DK_SECT LS(DK_PIPE) // §
+#define DK_PIPE RA(EQUAL)   // |
 #define DK_EXLM LS(N1)      // !
 #define DK_DQUO LS(N2)      // "
 #define DK_HASH LS(N3)      // #
