@@ -25,8 +25,6 @@
 #define DK_RPRN LS(N9)      // )
 #define DK_EQL LS(N0)       // =
 #define DK_QUES LS(DK_PLUS) // ?
-#define DK_GRV LS(DK_BSLS)  // ` (dead)
-// #define DK_CIRC LS(DK_DIAE) // ^ (dead)
 #define DK_ASTR LS(DK_SQT)  // *
 #define DK_SQT BSLH         // '
 #define DK_RABK LS(DK_LABK) // >
