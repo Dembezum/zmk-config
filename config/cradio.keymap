@@ -170,25 +170,15 @@
         copy: copy {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LCTRL>,
-                <&macro_tap>,
-                <&kp C>,
-                <&macro_release>,
-                <&kp LCTRL>;
+            bindings = <&kp LC(C)>;
+            label = "Copy macro";
         };
 
-        dk_paste: dk_paste {
+        paste: paste {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LCTRL>,
-                <&macro_tap>,
-                <&kp V>,
-                <&macro_release>,
-                <&kp LCTRL>;
+            bindings = <&kp LC(V)>;
+            label = "Paste macro";
         };
 
         dkBLSH: dkBLSH {
