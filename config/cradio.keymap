@@ -192,7 +192,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(DK_PLUS)>;
-            label = "Question mark";
+            label = "DK Question mark";
         };
 
         PERCNT: PERCNT {
@@ -335,7 +335,7 @@
                 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼──────────────┼─────────────┤           */
                     &kp EXCL      &kp AT        &DK_AE        &DK_OSTR      &DK_ARNG        &kp PERCNT    &dkPIPE      &kp EQUAL     &kp BSLH       &kp GRAVE
                 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼──────────────┼─────────────┤           */
-                    &kp ESC       &trans        &trans        &trans        &kp RGUI        &kp DK_SLSH      &DK_QUES     &kp DK_PLUS   &DK_ASTR       &tilde
+                    &kp ESC       &trans        &trans        &trans        &kp RGUI        &kp DK_SLSH   &DK_QUES     &kp DK_PLUS   &DK_ASTR       &tilde
                 /*╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴──────────────┼─────────────╯           */
                                                               &kp RSHFT     &kp RALT        &trans        &kp LCTRL
                 /*                                          ╰─────────────┴─────────────╯ ╰─────────────┴─────────────╯                                                      */
