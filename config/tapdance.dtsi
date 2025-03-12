@@ -1,4 +1,5 @@
 // tapdance.dtsi
+#include "aliases.h" // Include the Danish keys
 
 / {
     behaviors {
