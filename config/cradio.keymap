@@ -106,11 +106,11 @@
         L_0 {
             bindings = <
                 /*╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮           */
-                    &kp Q         &kp W         &kp E         &kp R         &kp T           &kp Y         &kp U         &kp I          &kp O        &kp P
+                    &kp Q         &kp W         &kp E         &kp R         &kp T           &kp Y         &kp U         &lt 4 I       &kp O         &kp P
                 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤           */
-                    &ht LSHIFT A  &kp S         &kp D         &kp F         &kp G           &kp H         &kp J         &lt 4 K        &kp L        &ht RSHFT DK_SQT
+                    &ht LGUI A    &ht RALT S    &ht LSHIFT D  &ht LCTRL F   &kp G           &kp H         &ht LCTRL J   &ht LSHIFT K  &ht RALT L    &ht RMETA DK_SQT
                 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤           */
-                    &kp Z         &ht LCTRL X   &ht RALT C    &kp V         &kp B           &kp N         &kp M         &ht RALT COMMA &ht LCTRL DOT &ht RMETA DK_MINS
+                    &kp Z         &ht LCTRL X   &ht RALT C    &kp V         &kp B           &kp N         &kp M         &ht RALT COMMA &ht LCTRL DOT &ht DK_MINS
                 /*╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯           */
                                                              &ht LMETA TAB &lt 1 BACKSPACE &lt 2 SPACE    &lt 3 ENTER
                 /*                                          ╰─────────────┴─────────────╯ ╰─────────────┴─────────────╯                                                     */
