@@ -19,11 +19,11 @@
 / {
 
     behaviors {
-        td_QT: td_QT {
+        td_nt1: td_nt1 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <100>;
-            bindings = <&kp DK_SQT>, <&kp DK_DQUO>;
+            bindings = <&kp N1>, <&kp N2>, <&mt N3 N4>;
         };
         ht: hold_tap {
             compatible = "zmk,behavior-hold-tap";
