@@ -104,6 +104,14 @@
             bindings = <&none &kp LS(S) &kp U &kp P &kp E &kp R &kp LS(U) &kp L &kp T &kp R &kp A &kp LS(O) &kp M &kp E &kp G &kp A &kp LS(S) &kp W &kp A &kp G &kp N1 &kp N2 &kp EXCL &kp RETURN>;
             label = "BLIP";
         };    
+        tijis: tijis {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(T) &kp I &kp J &kp U &kp S &kp SPACE &kp E &kp R &kp SPACE &kp E &kp N &kp SPACE &kp L &kp I &kp L &kp L &kp E &kp SPACE &kp L &kp O &kp R &kp T>;
+            label = "TIJIS";
+            wait-ms = <1>;
+            tap-ms = <1>;
+        };
     };
 
     keymap {
