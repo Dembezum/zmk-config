@@ -29,6 +29,7 @@
 #define DK_GT NUBS          // >
 #define DK_LT LS(NUBS)      // <
 #define DK_TILD RA(RBKT)    // ~
+#define DK_CARET LS(RBKT)   // ^
 #define DK_GRAVE LS(EQUAL)  // `
 
 #define DK_ARNG LBRC // Å
