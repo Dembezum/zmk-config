@@ -26,8 +26,8 @@
 #define DK_RBRC RA(N9)      // ]
 #define DK_RCBR RA(N0)      // }
 #define DK_PLUS MINUS       // +
-#define DK_GT NUBS          // >
-#define DK_LT LS(NUBS)      // <
+#define DK_LT NUBS          // >
+#define DK_GT LS(NUBS)      // <
 #define DK_TILD RA(RBKT)    // ~
 #define DK_CARET LS(RBKT)   // ^
 #define DK_GRAVE LS(EQUAL)  // `
