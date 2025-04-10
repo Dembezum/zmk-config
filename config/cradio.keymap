@@ -78,7 +78,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LC(A) &kp DK_PIPE>;
-            label = "MAC Split tmux vertically";
+            label = "Linux Split tmux vertically";
         };
         tmxsph: tmxsph {
             compatible = "zmk,behavior-macro";
