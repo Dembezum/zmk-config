@@ -134,9 +134,9 @@
                 /*╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬──────────────┬─────────────╮           */
                     &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &kp F6        &kp F7        &kp F8        &kp F11        &kp F12
                 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼──────────────┼─────────────┤           */
-                    &kp DK_EXLM   &trans        &kp SEMI      &kp SQT       &kp LBKT        &kp DK_PERC   &kp DK_PIPE   &kp DK_EQL    &kp BSLH       &kp RA(RBKT) 
+                    &kp DK_EXLM   &trans        &kp SEMI      &kp SQT       &kp LBKT        &kp DK_PERC   &kp DK_PIPE   &kp DK_EQL    &kp BSLH       &kp DK_TILD 
                 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼──────────────┼─────────────┤           */
-                    &kp ESC       &trans        &trans        &trans        &kp RGUI        &kp DK_SLSH   &kp DK_QUES   &kp DK_PLUS   &kp DK_LCRK         &trans 
+                    &kp ESC       &trans        &trans        &trans        &kp RGUI        &kp DK_SLSH   &kp DK_QUES   &kp DK_PLUS   &kp DK_GT      &trans 
                 /*╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴──────────────┼─────────────╯           */
                                                               &kp RSHFT     &kp RALT        &none         &kp LCTRL
                 /*                                          ╰─────────────┴─────────────╯ ╰─────────────┴─────────────╯                                                      */
@@ -197,11 +197,11 @@
         L_7 {
             bindings = <
                 /*╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬──────────────┬─────────────╮           */
-                    &kp DK_HASH  &td_QT        &kp DK_ASTR   &kp DK_DLR    &kp DK_UNDS     &trans        &trans        &trans        &trans         &trans
+                    &kp DK_HASH  &td_QT        &kp DK_ASTR   &kp DK_DLR    &kp DK_UNDS      &trans        &trans        &trans        &trans         &trans
                 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼──────────────┼─────────────┤           */
-                    &kp DK_LT   &kp DK_PERC   &kp DK_LPRN   &kp DK_LCBR   &kp DK_LBRC     &trans        &trans        &trans        &trans         &trans
+                    &kp DK_LT   &kp DK_PERC   &kp DK_LPRN   &kp DK_LCBR   &kp DK_LBRC       &trans        &trans        &kp DK_GRAVE  &trans         &trans
                 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼──────────────┼─────────────┤           */
-                    &kp DK_GT   &kp DK_AMPR   &kp DK_RPRN   &kp DK_RCBR   &kp DK_RBRC     &trans        &trans        &trans        &trans         &trans
+                    &kp DK_GT   &kp DK_AMPR   &kp DK_RPRN   &kp DK_RCBR   &kp DK_RBRC       &trans        &trans        &trans        &trans         &trans
                 /*╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴──────────────┼─────────────╯           */
                                                               &trans       &trans           &trans        &trans
                 /*                                          ╰─────────────┴─────────────╯ ╰─────────────┴─────────────╯                                                      */
