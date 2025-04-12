@@ -31,6 +31,7 @@
 #define DK_TILD RA(RBKT)    // ~
 #define DK_CARET LS(RBKT)   // ^
 #define DK_GRAVE LS(EQUAL)  // `
+#define DA_BSLH RA(NUBS)    // "\"
 
 #define DK_ARNG LBRC // Å
 #define DK_OSTR SEMI // Ø
