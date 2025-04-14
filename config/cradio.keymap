@@ -34,6 +34,12 @@
             require-prior-idle-ms = <100>;
             bindings = <&kp>, <&kp>;
         };
+        td_QT: td_QT {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <100>;
+            bindings = <&kp DK_SQT>, <&kp DK_DQUO>;
+        };
     };
     combos {
         compatible = "zmk,combos";
