@@ -67,8 +67,8 @@
             bindings = <&mo 5>;
             key-positions = <27 28>;
         };
-        L_9 {
-            bindings = <&mo 7>;
+        L_8 {
+            bindings = <&mo 8>;
             key-positions = <17 16>;
         };
     };
