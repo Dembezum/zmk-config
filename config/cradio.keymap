@@ -44,7 +44,6 @@
     combos {
         compatible = "zmk,combos";
 
-
         esc {
             bindings = <&kp ESC>;
             key-positions = <11 12>;
@@ -53,7 +52,6 @@
             bindings = <&kp BSPC>;
             key-positions = <7 8>;
         };
-
         tab {
             bindings = <&kp TAB>;
             key-positions = <21 22>;
