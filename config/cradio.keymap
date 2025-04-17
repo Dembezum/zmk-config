@@ -59,7 +59,7 @@
             key-positions = <13 12>;
         };
         esc {
-            bindings = <&ESC>;
+            bindings = <&kp ESC>;
             key-positions = <11 12>;
         };
         L_5 {
@@ -73,22 +73,16 @@
     };
     macros {
         // TMUX macros
-        m_tmxspv: m_tmxspv {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LC(A) &kp RA(I)>;
-            label = "MAC Split tmux vertically";
-        };
         tmxspv: tmxspv {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(A) &kp DK_PIPE>;
-            label = "Linux Split tmux vertically";
+            bindings = <&kp LC(A) &kp PIPE>;
+            label = "Split tmux vertically";
         };
         tmxsph: tmxsph {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(A) &kp SLASH>;
+            bindings = <&kp LC(A) &kp MINUS>;
             label = "Split tmux horizontally";
         };
         tmxcnt: tmxcnt {
@@ -98,7 +92,7 @@
             label = "tmux create new tab";
         };
         tmxcytb: tmxcytb {
-            compatible = "zmk,behavior-macro";
+            compatible = "zmk,behavior-maco";
             #binding-cells = <0>;
             bindings = <&kp LC(A) &kp N>;
             label = "tmux cycle tabs";
