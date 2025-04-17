@@ -45,6 +45,10 @@
         compatible = "zmk,combos";
 
 
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <11 12>;
+        };
         bspc {
             bindings = <&kp BSPC>;
             key-positions = <7 8>;
@@ -57,10 +61,6 @@
         CPSWRD {
             bindings = <&caps_word>;
             key-positions = <13 12>;
-        };
-        esc {
-            bindings = <&kp ESC>;
-            key-positions = <11 12>;
         };
         L_5 {
             bindings = <&mo 5>;
