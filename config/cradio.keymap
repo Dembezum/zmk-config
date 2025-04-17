@@ -81,25 +81,21 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LC(A) &kp PIPE>;
-            label = "Split tmux vertically";
         };
         tmxsph: tmxsph {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LC(A) &kp MINUS>;
-            label = "Split tmux horizontally";
         };
         tmxcnt: tmxcnt {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LC(A) &kp C>;
-            label = "tmux create new tab";
         };
         tmxcytb: tmxcytb {
             compatible = "zmk,behavior-maco";
             #binding-cells = <0>;
             bindings = <&kp LC(A) &kp N>;
-            label = "tmux cycle tabs";
         };
     };
 
@@ -188,7 +184,7 @@
         L_5 {
             bindings = <
                 /*╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬──────────────┬─────────────╮           */
-                    &to 6         &to 7         &to 8         &to 9         &to 10          &trans        &trans        &trans        &trans         &to 0
+                    &to 6         &to 7         &to 8         &to 9         &trans          &trans        &trans        &trans        &trans         &to 0
                 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼──────────────┼─────────────┤           */
                     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &bt BT_CLR    &trans        &trans        &trans         &trans
                 /*├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼──────────────┼─────────────┤           */
